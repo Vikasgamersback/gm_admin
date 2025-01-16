@@ -1,0 +1,73 @@
+[
+  {
+    "management": "Social Media Management",
+    "heading": [
+      {
+        "subheading": "DASHBOARD",
+        "options": {
+          "view": false,
+          "modify": false
+        }
+      },
+      {
+        "subheading": "USER",
+        "options": {
+          "view": false,
+          "modify": false
+        }
+      },
+      {
+        "subheading": "REPORTS",
+        "options": {
+          "view": false,
+          "modify": false
+        }
+      }
+    ]
+  },
+  {
+    "management": "Employee Management",
+    "heading": [
+      {
+        "subheading": "DASHBOARD",
+        "options": {
+          "view": false,
+          "modify": false
+        }
+      },
+      {
+        "subheading": "EMPLOYEE",
+        "options": {
+          "view": false,
+          "modify": false
+        }
+      }
+    ]
+  },
+  {
+    "management": "Blogs Management",
+    "heading": [
+      {
+        "subheading": "DASHBOARD",
+        "options": {
+          "view": false,
+          "modify": false
+        }
+      },
+      {
+        "subheading": "BLOGS",
+        "options": {
+          "view": false,
+          "modify": false
+        }
+      },
+      {
+        "subheading": "BLOGVIEW",
+        "options": {
+          "view": false,
+          "modify": false
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Anton", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  @apply bg-[#F1F1F9] dark:bg-[#242424] overscroll-y-none;
+}
+
+.input-outline {
+  @apply outline-none bg-transparent py-3 px-2 rounded-lg dark:text-[#FFFFFF] border-[#CACACA] border-[1px] w-full me-5 placeholder-[#242424] dark:placeholder-white;
+}
+
+.fixed-sidebar-card {
+  @apply fixed left-0 pt-[85px] h-[100vh] w-[250px] bg-[#242424] flex flex-col overflow-y-auto;
+}
+
+.fixed-sidebar-button {
+  @apply flex flex-row items-center space-x-3  px-5 py-2 mx-3 my-1 rounded-md cursor-pointer;
+}
+
+.sidebar-drawer {
+  @apply fixed left-[250px] h-[100vh] pt-1.5 bg-[#363535] flex flex-col overflow-y-auto z-10 mt-20;
+}
+
+.section {
+  @apply fixed right-0 w-[84%] pt-20 h-[100vh];
+}
+
+.sectiona {
+  @apply fixed ml-32 w-[84%] pt-20 h-[100vh];
+
+}
+
+.settings-input-box {
+  @apply text-2xl rounded-lg  p-2;
+}
+
+.card {
+  @apply bg-[#ffffff] rounded-2xl dark:bg-[#393939];
+}
+
+.pathname-selected {
+  @apply bg-white text-[#242424];
+}
+
+.pathname-not-selected {
+  @apply text-[#ffffff] hover:bg-[#999999] hover:opacity-80 hover:text-[#242424];
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image-shade:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 18px;
+  background: linear-gradient(transparent 0%, black 100%);
+}
+
+.sidebar-heading {
+  @apply flex  items-center space-x-3;
+}
+.button {
+  @apply px-3 py-2 rounded-lg border;
+}
